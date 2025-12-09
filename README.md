@@ -43,5 +43,5 @@ The Bug issue
 I don't know what the problem is, but when I reopen the game, the scrolling shader disappears from the game screen, like in the picture, but it still works in the shader graph.
 
 
-
+Bulid in the git folder
 
