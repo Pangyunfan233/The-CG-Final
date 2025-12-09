@@ -38,5 +38,10 @@ The water shader
 Next, regarding the water shader, I wanted to add more restrictions on players and NPCs in the Pac-Man game, so I added water that players can walk through normally, but NPCs cannot. In creating the water, I initially used a time node and a float to multiply, obtaining a controllable speed change. Then, I connected this to a tiling and offset node to create an "animation." Next, I connected the result to a sample texture, changed the node's type to normal, and uploaded the water's normal map to it. Then, I output the result to the Fragment's normal map, created a normal sample texture, uploaded the water's texture to it, and connected it to the basecolor to output the result. This resulted in a water surface that appears to have depth and shimmering light.
 
 
+The Bug issue
+<img width="1208" height="565" alt="image" src="https://github.com/user-attachments/assets/e664b749-c87c-41c7-a06f-ce0be5187fb9" />
+I don't know what the problem is, but when I reopen the game, the scrolling shader disappears from the game screen, like in the picture, but it still works in the shader graph.
+
+
 
 
